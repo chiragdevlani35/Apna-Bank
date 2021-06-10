@@ -1,0 +1,2 @@
+rootProject.name = "Apna Bank"
+include ':app'

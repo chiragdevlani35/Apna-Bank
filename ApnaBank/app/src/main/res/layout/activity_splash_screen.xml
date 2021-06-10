@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".SplashScreen"
+   >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/baap"
+        android:layout_below="@id/likhit"
+/>
+    <TextView
+        android:id="@+id/likhit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Tu jatt di pasand,\nTere shehar nu pta"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_marginTop="220dp"
+        android:textColor="#F5B041"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        />
+
+
+
+
+</RelativeLayout>
